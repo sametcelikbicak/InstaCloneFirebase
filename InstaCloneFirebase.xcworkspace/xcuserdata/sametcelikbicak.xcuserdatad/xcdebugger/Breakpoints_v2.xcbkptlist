@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "InstaCloneFirebase/uploadVC.swift"
-            timestampString = "526657353.566"
+            timestampString = "526658782.483049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
             landmarkName = "uploadVC"
             landmarkType = "3">
          </BreakpointContent>

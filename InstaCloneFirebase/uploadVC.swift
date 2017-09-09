@@ -7,10 +7,7 @@
 //
 
 import UIKit
-import Firebase
-import FirebaseAuth
-import FirebaseStorage
-import FirebaseDatabase
+
 
 class uploadVC: UIViewController, UIImagePickerControllerDelegate,UINavigationControllerDelegate {
     
@@ -21,13 +18,13 @@ class uploadVC: UIViewController, UIImagePickerControllerDelegate,UINavigationCo
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        /*
+      
         postImage.isUserInteractionEnabled = true
         let recognizer = UITapGestureRecognizer(target: self, action: #selector(uploadVC.choosePhoto))
         postImage.addGestureRecognizer(recognizer)
-        */
+        
     }
-/*
+
     @objc func choosePhoto(){
         let picker = UIImagePickerController()
         picker.delegate = self
@@ -40,7 +37,7 @@ class uploadVC: UIViewController, UIImagePickerControllerDelegate,UINavigationCo
         postImage.image = info[UIImagePickerControllerEditedImage] as? UIImage
         self.dismiss(animated: true, completion: nil)
     }
-    */
+    
   
     @IBAction func postButtonClicked(_ sender: Any) {
     }
